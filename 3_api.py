@@ -7,7 +7,7 @@ from fastapi import FastAPI, HTTPException
 
 # --- 1. Read environment variables -------------------------------------------------
 AIRTABLE_BASE_ID   = os.getenv("AIRTABLE_BASE_ID",  "appccCEUPWDVAXplx")
-AIRTABLE_TABLE_ID  = os.getenv("AIRTABLE_TABLE_ID", "tblu2pQj85sT7jY6")   # or the plain-text table name
+AIRTABLE_TABLE_ID = os.getenv("AIRTABLE_TABLE_ID", "KPI_FPT")
 AIRTABLE_TOKEN     = os.getenv("AIRTABLE_TOKEN")                         # must start with pat…
 
 # Safety check: fail fast if the token is missing
